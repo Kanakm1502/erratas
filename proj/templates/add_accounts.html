@@ -17,7 +17,9 @@
         </div>
         <button type="submit" class="btn btn-primary">Add more accounts</button>
     </form>
+</div>
 
+<div class="container d-flex justify-content-center align-items-center">
     <form action="{{ url_for('finish_adding_accounts', username=username) }}" method="get">
         <button type="submit" class="btn btn-success">Finish Adding Accounts</button>
     </form>
@@ -25,4 +27,3 @@
 
 
 {% endblock main %}
-
